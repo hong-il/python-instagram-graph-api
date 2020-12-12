@@ -1,1 +1,1 @@
-# python-instagram-graph-api
+###### 목적 : Instagram graph API를 활용하여 인스타그램 사용자의 이미지, 팔로워, 댓글 등의 정보들을 수집
