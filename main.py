@@ -6,19 +6,19 @@
     @ Description :
 """
 
+
 class Instagram:
 
     def __init__(self, dictionary):
         self.dictionary = dict()
-        self.dictionary['안준석'] = 172
+        self.dictionary = dictionary
 
     def run(self):
-        for k, v in self.dictionary.items():
-            print(f'{k} : {v}')
+        print(sum(self.dictionary.values()))
 
 
 def main():
-    dictionary = {"이름": "안준석", "키": 178}
+    dictionary = {"초코바": 1500, "메로나": 1000, "월드콘": 1300}
     instagram = Instagram(dictionary=dictionary)
     instagram.run()
 
