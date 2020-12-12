@@ -8,7 +8,8 @@
 
 
 def main():
-    print(f'Hi, PyCharm!')
+    안녕파이참 = 'Hi, PyCharm!'
+    print(f'{안녕파이참}')
 
 
 if __name__ == '__main__':
